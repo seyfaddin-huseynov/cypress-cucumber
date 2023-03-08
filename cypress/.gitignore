@@ -1,0 +1,18 @@
+
+# Test Results
+/**/.results
+
+
+# Ignore Cypress temporary files and build results
+# Temporary files
+cypress/videos
+cypress/screenshots
+results
+cypress/movies
+cypress/snapshots
+node_modules
+cypress/reports
+cypress/downloads
+# Logs
+logs
+log

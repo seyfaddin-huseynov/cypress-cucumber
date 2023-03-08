@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
+  },
+  "include": [
+    "**/*.ts",
+    "e2e/PageObjects/Communities.ts",
+    "e2e/RegressionTests/API_testingReg.test.js",
+    "support/commands.ts"
+  ]
+}
