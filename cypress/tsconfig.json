@@ -6,8 +6,6 @@
   },
   "include": [
     "**/*.ts",
-    "e2e/PageObjects/Communities.ts",
-    "e2e/RegressionTests/API_testingReg.test.js",
     "support/commands.ts"
   ]
 }

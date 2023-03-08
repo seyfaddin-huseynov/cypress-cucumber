@@ -31,12 +31,8 @@ export default defineConfig({
   viewportWidth: 1920,
   viewportHeight: 1080,
   pageLoadTimeout: 120000,
-  env: {
-    username: "uitester@wilsonlanguage.com",
-  },
   e2e: {
     specPattern: "cypress/e2e/**/*.feature",
-    baseUrl: "https://hydra.wilsonacademy.com:5001",
     setupNodeEvents,
   },
 });
